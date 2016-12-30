@@ -6,8 +6,8 @@ Player Commands:
     /buyvehicle <VehicleID> - Buy the offered vehicle in the dealership.
     /vehicles - Shows the current player owned vehicles, Click on the vehicle to spawn/change plate/empty/etc.
     /changeplate <Number/Text> - Change the number plate of the vehicle.
-    /lock <VehicleID> - Lock a vehicle.
-    /unlock <VehicleID> - Unlock a vehicle.
+    /lock <VehicleID> - Lock a vehicle (If you are inside the vehicle, No need for the 'VehicleID' paramater).
+    /unlock <VehicleID> - Unlock a vehicle (If you are inside the vehicle, No need for the 'VehicleID' paramater).
     
 Administrator Commands:
 
