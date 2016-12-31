@@ -23,10 +23,10 @@
 #define DIALOG_VEHICLES         5513
 #define MAX_SERVER_VEHICLES     2000
 
-enum _:vehLockMods
+enum
 {
-    MODE_NOLOCK = 0,
-    MODE_LOCK = 1,
+    MODE_NOLOCK,
+    MODE_LOCK,
 };
 
 enum VehiclesData
@@ -793,7 +793,7 @@ GetName(playerid) {
 cNumber(integer, const separator[] = ",") { 
 
     new string[16]; 
-    valstr(string, integer); 
+    format(string, sizeof(string), "%i", integer);
 
     if(integer >= 1000) { 
 
