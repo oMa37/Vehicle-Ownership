@@ -818,4 +818,4 @@ ReturnVehicleModelID(Name[]) {
 
     for(new i; i != 211; i++) if(strfind(VehicleNames[i], Name, true) != -1) return i + 400;
     return INVALID_VEHICLE_ID;
-}
+} 
